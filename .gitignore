@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+frontend/node_modules/
+frontend/dist/
+backend/.env
+backend/music.db
+backend/music_library/
+__install/
