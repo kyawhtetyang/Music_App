@@ -6,3 +6,4 @@ backend/.env
 backend/music.db
 backend/music_library/
 __install/
+backend/r2_test.py
