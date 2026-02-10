@@ -43,8 +43,6 @@ app = FastAPI(title="Music App Backend")
 
 origins = [
     "https://music.kyawhtet.com",
-    "https://kyawhtet.com",
-    "https://music-app-frontend.vercel.app",
     "https://music-app-nine-dun.vercel.app",
     # add more frontends later if needed
 ]
