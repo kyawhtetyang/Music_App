@@ -45,6 +45,7 @@ origins = [
     "https://music.kyawhtet.com",
     "https://kyawhtet.com",
     "https://music-app-frontend.vercel.app",
+    "https://music-app-nine-dun.vercel.app",
     # add more frontends later if needed
 ]
 
@@ -152,4 +153,3 @@ def stream(track_id: int, db: Session = Depends(get_db)):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
-
